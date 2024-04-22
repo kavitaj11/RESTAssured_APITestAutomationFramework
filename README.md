@@ -8,12 +8,12 @@ Write some tests for each endpoint such that the endpoint is supposed to fail wi
 Basic Framework structure (request generation and validation):
 For the test cases above, modularize the code so that there are functions to:
 
-Generate the endpoint
-Generate the HTTP request
-Generate any headers
-Generate any data
-Make the HTTP request
-Parse out the response status code and body
+1. Generate the endpoint.
+2. Generate the HTTP request.
+3. Generate any headers.
+4. Generate any data
+5. Make the HTTP request
+6. Parse out the response status code and body
 
 For validation:
 Validate the expected status code is the actual status code
